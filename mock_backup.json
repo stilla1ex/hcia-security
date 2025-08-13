@@ -866,7 +866,7 @@
             "Local certificate",
             "Local device certificate"
           ],
-          "correctAnswer": [0, 1, 2, 3],
+          "correctAnswer": 0,
           "explanation": "The correct answer is ABCD."
         },
         {
@@ -1583,7 +1583,7 @@
           "explanation": "- Information security focuses on characteristics like controllability, non-repudiation, and integrity, but commonality is not a major feature."
         },
         {
-          "question": "Which of the following statements are true about the functions of the \u201callow l2tp virtual-template 0 remote client\u201d command in L2TP configuration? (multiple choice)",
+          "question": "Which of the following statements are true about the functions of the “allow l2tp virtual-template 0 remote client” command in L2TP configuration? (multiple choice)",
           "options": [
             "This command specifies the virtual interface template to be used.",
             "This command specifies the peer tunnel name.",
@@ -1955,191 +1955,26 @@
       "description": "Cybersecurity frameworks and threat management",
       "questions": [
         {
-          "question": "When firewalls are deployed in hot standby mode, which of the following protocols is used to switch the status of the entire VRRP group?",
+          "question": "In Cybersecurity Classified Protection 2.0, a network operator can determine the final level of security protection on its own when the security protection level is preliminarily determined to be ____.",
           "options": [
-            "VRRP",
-            "VGMP",
-            "ICMP",
-            "IGMP"
-          ],
-          "correctAnswer": 1,
-          "explanation": "The correct answer is VGMP."
-        },
-        {
-          "question": "Which of the following statements is correct about the function of lateral movement in network penetration?",
-          "options": [
-            "An attacker obtains the IP address, domain name, active port, and communication information of the target network through scanning and network monitoring to lay a foundation for subsequent attacks.",
-            "After accessing the target system, the attacker cannot perform lateral movement due to a lack of privileges. Therefore, the attacker may try to elevate privileges.",
-            "Lateral movement is to penetrate other devices that may have vulnerabilities on the network through controlled hosts or servers.",
-            "Communicate with the customer to understand the target of the penetration test, such as the system, server, and IP address."
-          ],
-          "correctAnswer": 2,
-          "explanation": "The correct answer is C."
-        },
-        {
-          "question": "Which of the following is a private IP address?",
-          "options": [
-            "192.200.1.1",
-            "172.32.1.1",
-            "192.1.1.1",
-            "172.20.2.1"
-          ],
-          "correctAnswer": 3,
-          "explanation": "The correct answer is D."
-        },
-        {
-          "question": "Which of the following statements is correct about the characteristics of a DDoS attack?",
-          "options": [
-            "An attacker intrudes into the target system through a backdoor program.",
-            "The purpose of such an attack is to steal confidential information from the target system.",
-            "The attack behavior can prevent the target system from processing the requests of authorized users.",
-            "If the target system has no vulnerability, the remote attack cannot succeed."
-          ],
-          "correctAnswer": 2,
-          "explanation": "The correct answer is C."
-        },
-        {
-          "question": "Network penetration simulates hackers' intrusion behaviors and thought patterns to perform non-destructive security tests on customer systems. Which of the following is the correct sequence of the network penetration process?",
-          "options": [
-            "Confirm the target -> Collect information -> Implement penetration -> Perform lateral movement -> Elevate privileges -> Clear traces",
-            "Collect information -> Confirm the target -> Implement penetration -> Perform lateral movement -> Elevate privileges -> Clear traces",
-            "Confirm the target -> Collect information -> Perform lateral movement -> Implement penetration -> Elevate privileges -> Clear traces",
-            "Confirm the target -> Collect information -> Implement penetration -> Perform lateral movement -> Clear traces -> Elevate privileges"
+            "Level 1",
+            "Level 2",
+            "Level 3",
+            "Level 4"
           ],
           "correctAnswer": 0,
           "explanation": "The correct answer is A."
         },
         {
-          "question": "Which of the following statements is incorrect about TTL in IP packets?",
+          "question": "Which of the following protocols can be applied to the application layer?",
           "options": [
-            "TTL is the maximum number of hops that an IP packet can be forwarded on a computer network.",
-            "The main function of TTL is to prevent IP packets from being circulated over a network infinitely, thereby saving network resources.",
-            "The TTL value decrements by 1 every time a packet is forwarded to a Layer 3 node.",
-            "The TTL value of a packet ranges from 0 to 4095."
-          ],
-          "correctAnswer": 3,
-          "explanation": "The correct answer is the TTL value of a packet ranges from 0 to 4095."
-        },
-        {
-          "question": "In tunnel mode of IPsec, to authenticate a new IP header, which of the following IPsec protocols needs to be used?",
-          "options": [
-            "MD5",
-            "SHA1",
-            "ESP",
-            "AH"
-          ],
-          "correctAnswer": 3,
-          "explanation": "The correct answer is AH."
-        },
-        {
-          "question": "Which of the following attacks is not a network-layer attack?",
-          "options": [
-            "Smurf attack",
-            "IP sweep",
-            "IP spoofing attack",
-            "Port scanning"
-          ],
-          "correctAnswer": 3,
-          "explanation": "The correct answer is Port scanning."
-        },
-        {
-          "question": "Which of the following statements is correct about a firewall's interzone security policies?",
-          "options": [
-            "Interzone security policies are matched sequentially from the one with the smallest ID.",
-            "Interzone security policies are matched sequentially from the top down.",
-            "Interzone security policies are matched sequentially from the one with the largest ID.",
-            "Interzone security policies are automatically sorted by ID. If the position of a policy changes, the ID of the policy changes accordingly."
-          ],
-          "correctAnswer": 1,
-          "explanation": "The correct answer is interzone security policies are matched sequentially from the top down."
-        },
-        {
-          "question": "Which of the following statements is incorrect about the RADIUS protocol?",
-          "options": [
-            "By default, UDP is used, and the authentication and authorization port numbers are 1812 and 1813 or 1645 and 1646, respectively.",
-            "It encrypts only the password field in an authentication packet.",
-            "Authentication and authorization are processed together.",
-            "It supports authorization of configuration commands."
-          ],
-          "correctAnswer": 3,
-          "explanation": "The incorrect answer is It supports authorization of configuration commands."
-        },
-        {
-          "question": "Huawei Redundancy Protocol (HRP) is used to synchronize data such as the key configurations and connection status of the active firewall to the standby firewall. Which of the following data is beyond the synchronization scope?",
-          "options": [
-            "Routing table",
-            "Security policies",
-            "Blacklist",
-            "NAT policies"
+            "HTTP",
+            "DNS",
+            "FTP",
+            "OSPF"
           ],
           "correctAnswer": 0,
-          "explanation": "The correct answer is Routing table."
-        },
-        {
-          "question": "Which of the following messages can provide error information and IP packet processing information for source ends?",
-          "options": [
-            "IGMP",
-            "TCP",
-            "UDP",
-            "ICMP"
-          ],
-          "correctAnswer": 3,
-          "explanation": "The correct answer is ICMP."
-        },
-        {
-          "question": "If packet loss occurs when hosts A and B communicate with each other through TCP, how does TCP ensure reliability?",
-          "options": [
-            "Host B sends ICMP packets to host A to notify data loss.",
-            "The sliding window mechanism is used between the two hosts to ensure reliability.",
-            "Host B uses the ACK field to instruct host A to retransmit packets.",
-            "The Option field in TCP packets is used to ensure reliability of host A and host B."
-          ],
-          "correctAnswer": 2,
-          "explanation": "The correct answer is the ACK field in TCP packets is used to instruct host A to retransmit packets."
-        },
-        {
-          "question": "Which one of the following parts is not included in a digital certificate?",
-          "options": [
-            "Name of the certificate holder",
-            "Certificate validity period",
-            "Certificate private key",
-            "Certificate public key"
-          ],
-          "correctAnswer": 2,
-          "explanation": "The correct answer is Certificate private key. The private key is not included in the certificate; it is kept secret by the certificate holder."
-        },
-        {
-          "question": "When an administrator wants to configure a USG series firewall through the console port, which of the following configurations should be made in the putty?",
-          "options": [
-            "4800 bps, 8 data bits, 1 stop bit, odd parity check, and no flow control",
-            "9600 bps, 8 data bits, 1 stop bit, even parity check, and hardware-based flow control",
-            "9600 bps, 8 data bits, 1 stop bit, no parity check, and no flow control",
-            "19200 bps, 8 data bits, 1 stop bit, no parity check, and no flow control"
-          ],
-          "correctAnswer": 2,
-          "explanation": "The correct answer is 9600 bps, 8 data bits, 1 stop bit, no parity check, and no flow control. This is the standard configuration for console access on USG firewalls."
-        },
-        {
-          "question": "On a USG firewall, which of the following commands is used to view current session entries?",
-          "options": [
-            "display firewall statistic",
-            "display firewall routing table",
-            "display firewall session table",
-            "display firewall fib session"
-          ],
-          "correctAnswer": 2,
-          "explanation": "The correct answer is display firewall session table. This command displays the current session entries on the firewall."
-        },
-        {
-          "question": "Which of the following values is the default security level of the Trust zone on a Huawei USG firewall?",
-          "options": [
-            "5",
-            "50",
-            "85",
-            "100"
-          ],
-          "correctAnswer": 2,
-          "explanation": "The default security level of the Trust zone on a Huawei USG firewall is 85. This level indicates a high level of trust for traffic originating from this zone. Refer to page 98 of Huawei training materials for more details."
+          "explanation": "The correct answer is ABC."
         },
         {
           "question": "Which of the following data filtering functions can prevent employees from disclosing their identity information to the Internet?",
@@ -2153,48 +1988,217 @@
           "explanation": "The correct answer is D."
         },
         {
-          "question": "Which of the following statements is correct about firewall security zones?",
+          "question": "Which of the following is the correct sequence of the ransomware attack process?",
           "options": [
-            "The default security zones can be deleted from a firewall.",
-            "An interface on a firewall can belong to multiple security zones.",
-            "Different interfaces on a firewall can belong to the same security zone.",
-            "Different security zones can have the same security level."
+            "Intrusion -> Proliferation -> Theft -> Ransom",
+            "Proliferation -> Intrusion -> Theft -> Ransom",
+            "Intrusion -> Theft -> Spread -> Ransom",
+            "Intrusion -> Proliferation -> Ransom -> Theft",
+            "Theft -> Intrusion -> Spread -> Ransom"
           ],
-          "correctAnswer": 2,
-          "explanation": "The correct answer is different interfaces on a firewall can belong to the same security zone."
+          "correctAnswer": 0,
+          "explanation": "The correct answer is A."
         },
         {
-          "question": "Which of the following steps is optional for configuring intrusion prevention?",
+          "question": "Which of the following data filtering functions can prevent employees from disclosing their identity information to the Internet?",
           "options": [
-            "Creating an IPS profile",
-            "Configuring a signature filter",
-            "Configuring signature exceptions",
-            "Referencing an IPS profile in a security policy"
+            "Mail filtering",
+            "File filtering",
+            "URL filtering",
+            "Content filtering"
           ],
-          "correctAnswer": 2,
-          "explanation": "The correct answer is Configuring signature exceptions."
+          "correctAnswer": 3,
+          "explanation": "The correct answer is D."
         },
         {
-          "question": "Which of the following values is the default port number of the SSH protocol?",
+          "question": "In Cybersecurity Classified Protection 2.0, a network operator can determine the final level of security protection on its own when the security protection level is preliminarily determined to be ____.",
           "options": [
-            "20",
-            "21",
-            "22",
-            "23"
+            "Level 1",
+            "Level 2",
+            "Level 3",
+            "Level 4"
           ],
-          "correctAnswer": 2,
-          "explanation": "The correct answer is 22."
+          "correctAnswer": 0,
+          "explanation": "The correct answer is A."
         },
         {
-          "question": "The digital certificate technology addresses the problem from the digital signature technology that the owner of a public key cannot be determined. Which of the following are types of digital certificates?",
+          "question": "Which of the following protocols can be applied to the application layer?",
           "options": [
-            "Self-signed certificate",
-            "CA certificate",
-            "Local certificate",
-            "Local device certificate"
+            "HTTP",
+            "DNS",
+            "FTP",
+            "OSPF"
           ],
-          "correctAnswer": [0, 1, 2, 3],
-          "explanation": "The correct answers are ABCD."
+          "correctAnswer": 0,
+          "explanation": "The correct answer is ABC."
+        },
+        {
+          "question": "Which of the following is the correct sequence of the ransomware attack process?",
+          "options": [
+            "Intrusion -> Proliferation -> Theft -> Ransom",
+            "Proliferation -> Intrusion -> Theft -> Ransom",
+            "Intrusion -> Theft -> Spread -> Ransom",
+            "Intrusion -> Proliferation -> Ransom -> Theft",
+            "Theft -> Intrusion -> Spread -> Ransom"
+          ],
+          "correctAnswer": 0,
+          "explanation": "The correct answer is A."
+        },
+        {
+          "question": "Which of the following data filtering functions can prevent employees from disclosing their identity information to the Internet?",
+          "options": [
+            "Mail filtering",
+            "File filtering",
+            "URL filtering",
+            "Content filtering"
+          ],
+          "correctAnswer": 3,
+          "explanation": "The correct answer is D."
+        },
+        {
+          "question": "Which of the following data filtering functions can prevent employees from disclosing their identity information to the Internet?",
+          "options": [
+            "Mail filtering",
+            "File filtering",
+            "URL filtering",
+            "Content filtering"
+          ],
+          "correctAnswer": 3,
+          "explanation": "The correct answer is D."
+        },
+        {
+          "question": "Which of the following protocols can be applied to the application layer?",
+          "options": [
+            "HTTP",
+            "DNS",
+            "FTP",
+            "OSPF"
+          ],
+          "correctAnswer": 0,
+          "explanation": "The correct answer is ABC."
+        },
+        {
+          "question": "Which of the following protocols can be applied to the application layer?",
+          "options": [
+            "HTTP",
+            "DNS",
+            "FTP",
+            "OSPF"
+          ],
+          "correctAnswer": 0,
+          "explanation": "The correct answer is ABC."
+        },
+        {
+          "question": "Which of the following data filtering functions can prevent employees from disclosing their identity information to the Internet?",
+          "options": [
+            "Mail filtering",
+            "File filtering",
+            "URL filtering",
+            "Content filtering"
+          ],
+          "correctAnswer": 3,
+          "explanation": "The correct answer is D."
+        },
+        {
+          "question": "In Cybersecurity Classified Protection 2.0, a network operator can determine the final level of security protection on its own when the security protection level is preliminarily determined to be ____.",
+          "options": [
+            "Level 1",
+            "Level 2",
+            "Level 3",
+            "Level 4"
+          ],
+          "correctAnswer": 0,
+          "explanation": "The correct answer is A."
+        },
+        {
+          "question": "In Cybersecurity Classified Protection 2.0, a network operator can determine the final level of security protection on its own when the security protection level is preliminarily determined to be ____.",
+          "options": [
+            "Level 1",
+            "Level 2",
+            "Level 3",
+            "Level 4"
+          ],
+          "correctAnswer": 0,
+          "explanation": "The correct answer is A."
+        },
+        {
+          "question": "Which of the following is the correct sequence of the ransomware attack process?",
+          "options": [
+            "Intrusion -> Proliferation -> Theft -> Ransom",
+            "Proliferation -> Intrusion -> Theft -> Ransom",
+            "Intrusion -> Theft -> Spread -> Ransom",
+            "Intrusion -> Proliferation -> Ransom -> Theft",
+            "Theft -> Intrusion -> Spread -> Ransom"
+          ],
+          "correctAnswer": 0,
+          "explanation": "The correct answer is A."
+        },
+        {
+          "question": "In Cybersecurity Classified Protection 2.0, a network operator can determine the final level of security protection on its own when the security protection level is preliminarily determined to be ____.",
+          "options": [
+            "Level 1",
+            "Level 2",
+            "Level 3",
+            "Level 4"
+          ],
+          "correctAnswer": 0,
+          "explanation": "The correct answer is A."
+        },
+        {
+          "question": "Which of the following data filtering functions can prevent employees from disclosing their identity information to the Internet?",
+          "options": [
+            "Mail filtering",
+            "File filtering",
+            "URL filtering",
+            "Content filtering"
+          ],
+          "correctAnswer": 3,
+          "explanation": "The correct answer is D."
+        },
+        {
+          "question": "Which of the following data filtering functions can prevent employees from disclosing their identity information to the Internet?",
+          "options": [
+            "Mail filtering",
+            "File filtering",
+            "URL filtering",
+            "Content filtering"
+          ],
+          "correctAnswer": 3,
+          "explanation": "The correct answer is D."
+        },
+        {
+          "question": "Which of the following data filtering functions can prevent employees from disclosing their identity information to the Internet?",
+          "options": [
+            "Mail filtering",
+            "File filtering",
+            "URL filtering",
+            "Content filtering"
+          ],
+          "correctAnswer": 3,
+          "explanation": "The correct answer is D."
+        },
+        {
+          "question": "In Cybersecurity Classified Protection 2.0, a network operator can determine the final level of security protection on its own when the security protection level is preliminarily determined to be ____.",
+          "options": [
+            "Level 1",
+            "Level 2",
+            "Level 3",
+            "Level 4"
+          ],
+          "correctAnswer": 0,
+          "explanation": "The correct answer is A."
+        },
+        {
+          "question": "Which of the following is the correct sequence of the ransomware attack process?",
+          "options": [
+            "Intrusion -> Proliferation -> Theft -> Ransom",
+            "Proliferation -> Intrusion -> Theft -> Ransom",
+            "Intrusion -> Theft -> Spread -> Ransom",
+            "Intrusion -> Proliferation -> Ransom -> Theft",
+            "Theft -> Intrusion -> Spread -> Ransom"
+          ],
+          "correctAnswer": 0,
+          "explanation": "The correct answer is A."
         },
         {
           "question": "In Cybersecurity Classified Protection 2.0, a network operator can determine the final level of security protection on its own when the security protection level is preliminarily determined to be ____.",
@@ -3300,11 +3304,7 @@
             "When the disk space is insufficient, it will be recorded as an \"information event\"",
             "Failure audit event refers to a failed audit security login attempt, such as a failure when the user views accesses the network drive is logged as a failed audit event."
           ],
-          "correctAnswer": [
-            1,
-            2,
-            3
-          ],
+          "correctAnswer": 1,
           "explanation": "The correct answer is BCD."
         },
         {
@@ -3315,10 +3315,7 @@
             "Fingerprint encryption",
             "Data encryption"
           ],
-          "correctAnswer": [
-            0,
-            1
-          ],
+          "correctAnswer": 0,
           "explanation": "The correct answer is AB."
         },
         {
@@ -3329,11 +3326,7 @@
             "the dynamic blacklist",
             "the routing table"
           ],
-          "correctAnswer": [
-            0,
-            1,
-            2
-          ],
+          "correctAnswer": 0,
           "explanation": "The correct answer is ABC."
         },
         {
@@ -3377,10 +3370,7 @@
             "The agreement number of AH is 51.",
             "The agreement number of ESP is 51."
           ],
-          "correctAnswer": [
-            1,
-            2
-          ],
+          "correctAnswer": 1,
           "explanation": "The correct answer is BC."
         },
         {
@@ -3413,12 +3403,7 @@
             "Set connection security rules",
             "Set outbound/inbound rules"
           ],
-          "correctAnswer": [
-            0,
-            1,
-            2,
-            3
-          ],
+          "correctAnswer": 0,
           "explanation": "The correct answer is ABCD."
         },
         {
@@ -3462,10 +3447,7 @@
             "HWTACACS",
             "LDP"
           ],
-          "correctAnswer": [
-            0,
-            2
-          ],
+          "correctAnswer": 0,
           "explanation": "The correct answer is AC."
         },
         {
@@ -3573,11 +3555,7 @@
             "Independent protection level",
             "Passive protection level"
           ],
-          "correctAnswer": [
-            0,
-            1,
-            2
-          ],
+          "correctAnswer": 0,
           "explanation": "The correct answer is ABC."
         },
         {
@@ -3619,11 +3597,7 @@
             "the dynamic blacklist",
             "the routing table"
           ],
-          "correctAnswer": [
-            0,
-            1,
-            2
-          ],
+          "correctAnswer": 0,
           "explanation": "The correct answer is ABC."
         },
         {
@@ -3634,10 +3608,7 @@
             "Fingerprint encryption",
             "Data encryption"
           ],
-          "correctAnswer": [
-            0,
-            1
-          ],
+          "correctAnswer": 0,
           "explanation": "The correct answer is AB."
         },
         {
@@ -3703,10 +3674,7 @@
             "HWTACACS",
             "LDP"
           ],
-          "correctAnswer": [
-            0,
-            2
-          ],
+          "correctAnswer": 0,
           "explanation": "The correct answer is AC."
         },
         {
@@ -3728,11 +3696,7 @@
             "the dynamic blacklist",
             "the routing table"
           ],
-          "correctAnswer": [
-            0,
-            1,
-            2
-          ],
+          "correctAnswer": 0,
           "explanation": "The correct answer is ABC."
         },
         {
@@ -3820,11 +3784,7 @@
             "When the disk space is insufficient, it will be recorded as an \"information event\"",
             "Failure audit event refers to a failed audit security login attempt, such as a failure when the user views accesses the network drive is logged as a failed audit event."
           ],
-          "correctAnswer": [
-            1,
-            2,
-            3
-          ],
+          "correctAnswer": 1,
           "explanation": "The correct answer is BCD."
         },
         {
@@ -3846,11 +3806,7 @@
             "Independent protection level",
             "Passive protection level"
           ],
-          "correctAnswer": [
-            0,
-            1,
-            2
-          ],
+          "correctAnswer": 0,
           "explanation": "The correct answer is ABC."
         },
         {
@@ -3938,12 +3894,7 @@
             "Set connection security rules",
             "Set outbound/inbound rules"
           ],
-          "correctAnswer": [
-            0,
-            1,
-            2,
-            3
-          ],
+          "correctAnswer": 0,
           "explanation": "The correct answer is ABCD."
         },
         {
@@ -3954,10 +3905,7 @@
             "HWTACACS",
             "LDP"
           ],
-          "correctAnswer": [
-            0,
-            2
-          ],
+          "correctAnswer": [0, 2],
           "explanation": "The correct answers are A (RADIUS) and C (HWTACACS). RADIUS and HWTACACS are both remote authentication protocols used for centralized authentication, authorization, and accounting. Local authentication is not remote, and LDP (Label Distribution Protocol) is not an authentication protocol."
         },
         {
@@ -3990,11 +3938,7 @@
             "When the disk space is insufficient, it will be recorded as an \"information event\"",
             "Failure audit event refers to a failed audit security login attempt, such as a failure when the user views accesses the network drive is logged as a failed audit event."
           ],
-          "correctAnswer": [
-            1,
-            2,
-            3
-          ],
+          "correctAnswer": [1, 2, 3],
           "explanation": "The correct answers are B, C, and D. Option A is incorrect because a warning event indicates a potential problem, not a successful operation. Option B is correct - error events do refer to function/data loss. Option C is correct - insufficient disk space is typically recorded as an information event. Option D is correct - failed audit events do refer to failed security login attempts."
         },
         {
@@ -4005,11 +3949,7 @@
             "Independent protection level",
             "Passive protection level"
           ],
-          "correctAnswer": [
-            0,
-            1,
-            2
-          ],
+          "correctAnswer": 0,
           "explanation": "The correct answer is ABC."
         }
       ]
