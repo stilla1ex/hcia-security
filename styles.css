@@ -1096,45 +1096,6 @@ body {
     font-size: 0.8rem;
 }
 
-/* Performance Insights */
-.performance-insights {
-    width: 100%;
-    max-width: 800px;
-    background: linear-gradient(145deg, #2d3748 0%, #1a202c 100%);
-    border-radius: 16px;
-    padding: 1.5rem;
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.performance-insights h3 {
-    color: #e2e8f0;
-    font-size: 1.3rem;
-    font-weight: 600;
-    margin-bottom: 1rem;
-    text-align: center;
-}
-
-.insights-content {
-    background: rgba(255, 255, 255, 0.05);
-    border-radius: 10px;
-    padding: 1.2rem;
-    margin-bottom: 1.5rem;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.recommendations h4 {
-    color: #e2e8f0;
-    font-size: 1.1rem;
-    margin-bottom: 0.8rem;
-}
-
-.recommendations-list {
-    display: flex;
-    flex-direction: column;
-    gap: 0.8rem;
-}
-
 .results-actions {
     display: flex;
     gap: 0.8rem;
@@ -3867,7 +3828,6 @@ body {
         grid-template-rows: repeat(2, 1fr);
     }
     
-    .performance-insights,
     .detailed-review {
         padding: 1.5rem;
     }
@@ -3907,7 +3867,6 @@ body {
     }
     
     .score-card,
-    .performance-insights,
     .detailed-review {
         padding: 1rem;
     }

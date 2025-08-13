@@ -2197,114 +2197,113 @@
           "explanation": "The correct answers are ABCD."
         },
         {
-          "question": "In Cybersecurity Classified Protection 2.0, a network operator can determine the final level of security protection on its own when the security protection level is preliminarily determined to be ____.",
+          "question": "Which of the following ports are used as the default authentication and accounting ports of the RADIUS protocol?",
           "options": [
-            "Level 1",
-            "Level 2",
-            "Level 3",
-            "Level 4"
+            "1811",
+            "1812",
+            "1813",
+            "1814"
           ],
-          "correctAnswer": 0,
+          "correctAnswer": [1, 2],
+          "explanation": "The correct answer is B and C."
+        },
+        {
+          "question": "If the administrator has configured the Telnet service on the firewall but a user still cannot access the firewall remotely, which of the following are possible causes of the access failure?",
+          "options": [
+            "The network between the user and the firewall is unreachable.",
+            "The user enters an incorrect password.",
+            "The Telnet user level is incorrectly configured.",
+            "The number of online Telnet users reaches the upper limit."
+          ],
+          "correctAnswer": [0, 1, 3],
+          "explanation": "The correct answer is A, B, and D."
+        },
+        {
+          "question": "Which of the following methods can be used to implement the SSL VPN web proxy?",
+          "options": [
+            "Web link",
+            "Web transparent transmission",
+            "Web forwarding",
+            "Web rewriting"
+          ],
+          "correctAnswer": [0, 3],
+          "explanation": "The correct answer is web link and web rewriting."
+        },
+        {
+          "question": "Which of the following are components of a PKI system?",
+          "options": [
+            "End entity",
+            "Certificate authority",
+            "Certificate registration authority",
+            "Certificate/CRL database"
+          ],
+          "correctAnswer": [0, 1, 2, 3],
+          "explanation": "The correct answer is A, B, C, and D."
+        },
+        {
+          "question": "Which of the following security functions can be provided by the AH protocol in IPsec?",
+          "options": [
+            "Data origin authentication",
+            "Data confidentiality",
+            "Data integrity verification",
+            "Anti-replay"
+          ],
+          "correctAnswer": [0, 2, 3],
+          "explanation": "The correct answer is Data origin authentication, data integrity verification, and anti-replay."
+        },
+        {
+          "question": "Which of the following algorithms are symmetric encryption algorithms?",
+          "options": [
+            "DES",
+            "3DES",
+            "MD5",
+            "SHA1"
+          ],
+          "correctAnswer": [0, 1],
+          "explanation": "The correct answer is DES and 3DES."
+        },
+        {
+          "question": "Which of the following are common network topologies?",
+          "options": [
+            "Bus topology",
+            "Tree topology",
+            "Star topology",
+            "Ring topology"
+          ],
+          "correctAnswer": [0, 1, 2, 3],
           "explanation": "The correct answer is A."
         },
         {
-          "question": "Which of the following is the correct sequence of the ransomware attack process?",
+          "question": "Which of the following statements are correct about the decapsulation of data packets in the TCP/IP protocol stack?",
           "options": [
-            "Intrusion -> Proliferation -> Theft -> Ransom",
-            "Proliferation -> Intrusion -> Theft -> Ransom",
-            "Intrusion -> Theft -> Spread -> Ransom",
-            "Intrusion -> Proliferation -> Ransom -> Theft",
-            "Theft -> Intrusion -> Spread -> Ransom"
+            "The physical network layer receives frames, calculates the CRC of the frames, and then sends the frames to the data link layer.",
+            "The data link layer checks whether the CRC of the frames is correct, deletes the frame header and CRC, and then sends the frames to the network layer.",
+            "After the network layer receives and parses data packets, network layer information is removed, and the upper-layer protocol is obtained based on the parsing result.",
+            "After the transport layer (TCP) receives and parses data packets, transport layer information is removed, and the upper-layer protocol is obtained based on the parsing result."
           ],
-          "correctAnswer": 0,
-          "explanation": "The correct answer is A."
+          "correctAnswer": [0, 1, 2, 3],
+          "explanation": "The correct answer is A, B, C, and D."
         },
         {
-          "question": "In Cybersecurity Classified Protection 2.0, a network operator can determine the final level of security protection on its own when the security protection level is preliminarily determined to be ____.",
+          "question": "Which of the following VPNs are suitable for employees on business trips to access the enterprise intranet from the public network?",
           "options": [
-            "Level 1",
-            "Level 2",
-            "Level 3",
-            "Level 4"
+            "L2TP VPN",
+            "GRE VPN",
+            "L2TP over IPsec",
+            "SSL VPN"
           ],
-          "correctAnswer": 0,
-          "explanation": "The correct answer is A."
+          "correctAnswer": [0, 2, 3],
+          "explanation": "The correct answer is ACD."
         },
         {
-          "question": "Which of the following data filtering functions can prevent employees from disclosing their identity information to the Internet?",
+          "question": "Which of the following principles must be adhered to when you configure the security levels of the firewall security zones?",
           "options": [
-            "Mail filtering",
-            "File filtering",
-            "URL filtering",
-            "Content filtering"
+            "The security level cannot be changed once it is configured.",
+            "Two security zones in the same system cannot be configured with the same security level.",
+            "The default security level of a new security zone is 100.",
+            "Security levels can be set only for user-defined security zones."
           ],
-          "correctAnswer": 3,
-          "explanation": "The correct answer is D."
-        },
-        {
-          "question": "Which of the following data filtering functions can prevent employees from disclosing their identity information to the Internet?",
-          "options": [
-            "Mail filtering",
-            "File filtering",
-            "URL filtering",
-            "Content filtering"
-          ],
-          "correctAnswer": 3,
-          "explanation": "The correct answer is D."
-        },
-        {
-          "question": "Which of the following protocols can be applied to the application layer?",
-          "options": [
-            "HTTP",
-            "DNS",
-            "FTP",
-            "OSPF"
-          ],
-          "correctAnswer": 0,
-          "explanation": "The correct answer is ABC."
-        },
-        {
-          "question": "In Cybersecurity Classified Protection 2.0, a network operator can determine the final level of security protection on its own when the security protection level is preliminarily determined to be ____.",
-          "options": [
-            "Level 1",
-            "Level 2",
-            "Level 3",
-            "Level 4"
-          ],
-          "correctAnswer": 0,
-          "explanation": "The correct answer is A."
-        },
-        {
-          "question": "In Cybersecurity Classified Protection 2.0, a network operator can determine the final level of security protection on its own when the security protection level is preliminarily determined to be ____.",
-          "options": [
-            "Level 1",
-            "Level 2",
-            "Level 3",
-            "Level 4"
-          ],
-          "correctAnswer": 0,
-          "explanation": "The correct answer is A."
-        },
-        {
-          "question": "Which of the following protocols can be applied to the application layer?",
-          "options": [
-            "HTTP",
-            "DNS",
-            "FTP",
-            "OSPF"
-          ],
-          "correctAnswer": 0,
-          "explanation": "The correct answer is ABC."
-        },
-        {
-          "question": "Which of the following data filtering functions can prevent employees from disclosing their identity information to the Internet?",
-          "options": [
-            "Mail filtering",
-            "File filtering",
-            "URL filtering",
-            "Content filtering"
-          ],
-          "correctAnswer": 3,
+          "correctAnswer": [1, 3],
           "explanation": "The correct answer is D."
         },
         {

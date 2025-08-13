@@ -1346,12 +1346,24 @@ class ExamApp {
         const correctAnswersEl = document.getElementById('correct-answers');
         const incorrectAnswersEl = document.getElementById('incorrect-answers');
         const totalQuestionsEl = document.getElementById('total-questions');
+        const timeTakenEl = document.getElementById('time-taken');
         const feedbackMessage = document.getElementById('feedback-message');
         
         if (scorePercentage) scorePercentage.textContent = `${percentage}%`;
         if (correctAnswersEl) correctAnswersEl.textContent = correct;
         if (incorrectAnswersEl) incorrectAnswersEl.textContent = incorrect;
         if (totalQuestionsEl) totalQuestionsEl.textContent = total;
+        
+        // Calculate and display exam duration
+        if (timeTakenEl && this.examStartTime && this.examEndTime) {
+            const durationMs = this.examEndTime - this.examStartTime;
+            const durationMinutes = Math.floor(durationMs / 60000);
+            const durationSeconds = Math.floor((durationMs % 60000) / 1000);
+            const formattedTime = `${durationMinutes}:${durationSeconds.toString().padStart(2, '0')}`;
+            timeTakenEl.textContent = formattedTime;
+        } else if (timeTakenEl) {
+            timeTakenEl.textContent = '--:--';
+        }
         
         // Generate feedback message
         let feedbackHTML = '';
