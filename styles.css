@@ -2594,8 +2594,8 @@ body {
 /* Star Rating Styles */
 .star-rating {
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
+    flex-direction: row;
+    justify-content: flex-start;
     gap: 0.25rem;
 }
 
@@ -2612,8 +2612,7 @@ body {
 }
 
 .star-rating .star:hover,
-.star-rating .star:hover ~ .star,
-.star-rating input[type="radio"]:checked ~ .star {
+.star-rating .star.active {
     color: #fbbf24;
     text-shadow: 0 0 10px rgba(251, 191, 36, 0.5);
     transform: scale(1.1);

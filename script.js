@@ -1808,16 +1808,23 @@ class ExamApp {
      */
     setupStarRating() {
         const stars = document.querySelectorAll('.star');
+        const radioInputs = document.querySelectorAll('.star-rating input[type="radio"]');
         let currentRating = 0;
 
         stars.forEach((star, index) => {
             star.addEventListener('click', () => {
-                currentRating = index + 1;
+                const radioValue = parseInt(radioInputs[index].value);
+                currentRating = radioValue;
+                
+                // Update the corresponding radio button
+                radioInputs[index].checked = true;
+                
                 this.updateStarDisplay(currentRating);
             });
 
             star.addEventListener('mouseenter', () => {
-                this.updateStarDisplay(index + 1);
+                const radioValue = parseInt(radioInputs[index].value);
+                this.updateStarDisplay(radioValue);
             });
         });
 
@@ -1834,8 +1841,11 @@ class ExamApp {
      */
     updateStarDisplay(rating) {
         const stars = document.querySelectorAll('.star');
+        const radioInputs = document.querySelectorAll('.star-rating input[type="radio"]');
+        
         stars.forEach((star, index) => {
-            if (index < rating) {
+            const radioValue = parseInt(radioInputs[index].value);
+            if (radioValue <= rating) {
                 star.classList.add('active');
             } else {
                 star.classList.remove('active');
