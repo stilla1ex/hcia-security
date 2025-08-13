@@ -2883,6 +2883,10 @@ body {
 .footer-copyright {
     color: #a0aec0;
     font-size: 0.85rem;
+    text-align: center;
+    width: 100%;
+    margin-top: 1rem;
+    order: 3;
 }
 
 .creator-name {
