@@ -691,7 +691,7 @@
             "Confirm the target -> Collect information -> Implement penetration -> Perform lateral movement -> Clear traces -> Elevate privileges"
           ],
           "correctAnswer": 0,
-          "explanation": "The correct answer is A."
+          "explanation": "The correct answer is Confirm the target -> Collect information -> Implement penetration -> Perform lateral movement -> Elevate privileges -> Clear traces. Refer to page 141 of Huawei training material."
         },
         {
           "question": "Which of the following statements is incorrect about TTL in IP packets?",
@@ -834,7 +834,7 @@
             "Different security zones can have the same security level."
           ],
           "correctAnswer": 2,
-          "explanation": "The correct answer is C."
+          "explanation": "Refer to page 158 of HCIA security training material."
         },
         {
           "question": "Which of the following steps is optional for configuring intrusion prevention?",
@@ -1329,7 +1329,7 @@
             "False"
           ],
           "correctAnswer": 0,
-          "explanation": "- SYN flood attacks overwhelm a server by initiating many TCP connections and leaving them half-open, exhausting server resources."
+          "explanation": "- SYN flood attacks overwhelm a server by initiating many TCP connections and leaving them half-open, exhausting server resources. Refer to pg 132 of Huawei training material."
         },
         {
           "question": "Stateful inspection firewalls create and maintain session tables to keep track of TCP and UDP sessions and use security policies to control which sessions can be created. Only the packets associated with the created sessions are forwarded.",
@@ -2150,7 +2150,7 @@
             "Content filtering"
           ],
           "correctAnswer": 3,
-          "explanation": "The correct answer is D."
+          "explanation": "The correct answer is content filtering. Refer to pg 135 of HCIA training material."
         },
         {
           "question": "Which of the following statements is correct about firewall security zones?",
@@ -2293,7 +2293,7 @@
             "SSL VPN"
           ],
           "correctAnswer": [0, 2, 3],
-          "explanation": "The correct answer is ACD."
+          "explanation": "The correct answer is ACD. Refer to page 128 of HCIA security training material."
         },
         {
           "question": "Which of the following principles must be adhered to when you configure the security levels of the firewall security zones?",
@@ -2844,7 +2844,7 @@
             "Trust > Local > Untrust > DMZ"
           ],
           "correctAnswer": 1,
-          "explanation": "The correct answer is B."
+          "explanation": "The correct descending order Local > Trust > DMZ > Untrust"
         },
         {
           "question": "Which of the following statements is incorrect about digital certificates?",
