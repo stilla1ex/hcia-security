@@ -2304,320 +2304,277 @@
             "Security levels can be set only for user-defined security zones."
           ],
           "correctAnswer": [1, 3],
-          "explanation": "The correct answer is D."
+          "explanation": "The correct answer is BD."
         },
         {
-          "question": "In Cybersecurity Classified Protection 2.0, a network operator can determine the final level of security protection on its own when the security protection level is preliminarily determined to be ____.",
+          "question": "Users are network access subjects and basic units for network behavior control and network permission assignment by firewalls. Which of the following are involved in the user organizational structure?.",
           "options": [
-            "Level 1",
-            "Level 2",
-            "Level 3",
-            "Level 4"
+            "Authentication domain",
+            "User group/User",
+            "Security group",
+            "Isolation group"
           ],
-          "correctAnswer": 0,
-          "explanation": "The correct answer is A."
-        },
-        {
-          "question": "Which of the following protocols can be applied to the application layer?",
-          "options": [
-            "HTTP",
-            "DNS",
-            "FTP",
-            "OSPF"
-          ],
-          "correctAnswer": 0,
+          "correctAnswer": [0, 1, 2],
           "explanation": "The correct answer is ABC."
         },
         {
-          "question": "In Cybersecurity Classified Protection 2.0, a network operator can determine the final level of security protection on its own when the security protection level is preliminarily determined to be ____.",
+          "question": "Which of the following TCP ports are used by the FTP service by default?",
           "options": [
-            "Level 1",
-            "Level 2",
-            "Level 3",
-            "Level 4"
+            "20",
+            "21",
+            "22",
+            "23"
           ],
-          "correctAnswer": 0,
-          "explanation": "The correct answer is A."
+          "correctAnswer": [0, 1],
+          "explanation": "The correct answer is AB."
         },
         {
-          "question": "Which of the following is the correct sequence of the ransomware attack process?",
+          "question": "Which of the following backup modes are supported by the HRP mechanism?",
           "options": [
-            "Intrusion -> Proliferation -> Theft -> Ransom",
-            "Proliferation -> Intrusion -> Theft -> Ransom",
-            "Intrusion -> Theft -> Spread -> Ransom",
-            "Intrusion -> Proliferation -> Ransom -> Theft",
-            "Theft -> Intrusion -> Spread -> Ransom"
+            "Scheduled backup",
+            "Real-time backup",
+            "Batch backup",
+            "Quick backup"
           ],
-          "correctAnswer": 0,
-          "explanation": "The correct answer is A."
+          "correctAnswer": [1, 2, 3],
+          "explanation": "The correct answer is BCD."
         },
         {
-          "question": "Which of the following data filtering functions can prevent employees from disclosing their identity information to the Internet?",
+          "question": "Which of the following can be used to implement AAA on Huawei devices?",
           "options": [
-            "Mail filtering",
-            "File filtering",
-            "URL filtering",
-            "Content filtering"
+            "RADIUS",
+            "HWTACACS",
+            "LDAP",
+            "AD"
+          ],
+          "correctAnswer": 0,
+          "explanation": "The correct answer is ABCD."
+        },
+        {
+          "question": "Which of the following VPNs are Layer 3 VPNs?",
+          "options": [
+            "L2TP VPN",
+            "GRE VPN",
+            "IPsec VPN",
+            "SSL VPN"
+          ],
+          "correctAnswer": [1, 2],
+          "explanation": "The correct answer is BC."
+        },
+        {
+          "question": "Which of the following protocol technologies are used when firewalls are deployed in hot standby mode?",
+          "options": [
+            "VRRP",
+            "IGMP",
+            "VGMP",
+            "HRP"
+          ],
+          "correctAnswer": [0, 2, 3],
+          "explanation": "The correct answer is ACD."
+        },
+        {
+          "question": "Which of the following authentication modes are available for Internet access users?",
+          "options": [
+            "SSO",
+            "Built-in Portal authentication",
+            "User-defined Portal authentication",
+            "User authentication exemption"
+          ],
+          "correctAnswer": [0, 1, 2, 3],
+          "explanation": "The correct answer is ABCD."
+        },
+        {
+          "question": "Which of the following parameterss comprise an IPsec SA?",
+          "options": [
+            "SPI",
+            "Source IP address",
+            "Destination IP addres",
+            "Security protocol number"
+          ],
+          "correctAnswer": [0, 2, 3],
+          "explanation": "The correct answer is ACD."
+        },
+        {
+          "question": "A session-based stateful inspection firewall processes the first packet and subsequent packets differently. Which of the following statements are correct?",
+          "options": [
+            "When receiving a packet, the firewall searches for a matching entry in the session table. If no match is found, the firewall processes the packet as the first packet.",
+            "When receiving a packet, the firewall searches for a matching entry in the session table. If a matching entry is found, the firewall processes the packet as a subsequent packet.",
+            "When stateful inspection is enabled, subsequent packets also need to be checked based on security policies.",
+            "When stateful inspection is enabled and the firewall processes TCP packets, a session can be established only for SYN packets."
+          ],
+          "correctAnswer": [0, 1, 3],
+          "explanation": "The correct answer is ABD."
+        },
+        {
+          "question": "The web redirection password authentication function of a USG firewall enables a user to access services without being proactively authenticated, and the device pushes the authentication page to the user.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": 0,
+          "explanation": "The correct answer is True."
+        },
+        {
+          "question": "In an IP sweep attack, an attacker sends ICMP packets to probe the IP address of the target network and obtain the topology of the target network and active devices.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": 0,
+          "explanation": "The correct answer is True."
+        },
+        {
+          "question": "When a USG firewall serves as an out-of-path detection device, you need to configure the detection interface as a Layer 3 interface.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The correct answer is False."
+        },
+        {
+          "question": "The intrusion prevention function of the firewall detects and terminates intrusions (such as buffer overflow attacks, Trojan horses, and worms) in real time to protect enterprises' information systems and network architectures.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": 0,
+          "explanation": "The correct answer is True."
+        },
+        {
+          "question": "When the stateful inspection function is disabled, the firewall creates a session for subsequent packets.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": 0,
+          "explanation": "The correct answer is True."
+        },
+        {
+          "question": "If the IKE negotiation mode of the IPsec VPN is the main mode, the ID type must be an IP address.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": 0,
+          "explanation": "The correct answer is True."
+        },
+        {
+          "question": "With a large number of network users, large enterprises usually use a hierarchical structure to support network expansion and growing number of users.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": 0,
+          "explanation": "The correct answer is True."
+        },
+        {
+          "question": "The heartbeat link is a channel through which two firewalls exchange messages to learn about each other's status and back up configuration commands and entries. The MGMT interface can be used as the heartbeat interface.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The correct answer is False."
+        },
+        {
+          "question": "SSL is a security protocol that provides secure connections for TCP-based application layer protocols like HTTP.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": 0,
+          "explanation": "The correct answer is True."
+        },
+        {
+          "question": "FTP is used for long-distance file transfer between two hosts and can ensure the reliability and confidentiality of data transmission.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The correct answer is False."
+        },
+        {
+          "question": "Huawei Redundancy Protocol (HRP) is used to synchronize information such as key configurations, connection status, routing tables, and interface addresses between the active and standby firewalls.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The correct answer is False."
+        },
+        {
+          "question": "On the CLI, users can view the running status and statistics in the user view, but not in the system view.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": 1,
+          "explanation": "The correct answer is False."
+        },
+        {
+          "question": "After receiving a packet, the LNS checks whether the TCP destination port number is 1701. If so, the LNS sends the packet to the L2TP processing module for further processing. If not, the LNS processes the packet as a normal IP packet.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": 0,
+          "explanation": "The correct answer is True."
+        },
+        {
+          "question": "A USG firewall is usually deployed between the external network and the network to be protected. It generates threat logs when detecting viruses, intrusions, botnets, Trojan horses, or worms.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": 0,
+          "explanation": "The correct answer is True."
+        },
+        {
+          "question": "A network device searches the routing table according to the destination IP address field in the IP packet header, and then forwards the data based on the search result.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswer": 0,
+          "explanation": "The correct answer is True."
+        },
+        {
+          "question": "IKEv1 negotiation phase 1 aims to establish an IKE SA, and supports two negotiation modes: main mode and aggressive mode.",
+          "options": [
+            "True",
+            "False"
           ],
           "correctAnswer": 3,
-          "explanation": "The correct answer is D."
+          "explanation": "The correct answer is True."
         },
         {
-          "question": "Which of the following is the correct sequence of the ransomware attack process?",
+          "question": "The persistent connection function of the firewall allows you to set a long aging time for specific TCP and UDP data flows, ensuring that the session information does not age out for a long time.",
           "options": [
-            "Intrusion -> Proliferation -> Theft -> Ransom",
-            "Proliferation -> Intrusion -> Theft -> Ransom",
-            "Intrusion -> Theft -> Spread -> Ransom",
-            "Intrusion -> Proliferation -> Ransom -> Theft",
-            "Theft -> Intrusion -> Spread -> Ransom"
+            "True",
+            "False"
           ],
           "correctAnswer": 0,
-          "explanation": "The correct answer is A."
+          "explanation": "The correct answer is True."
         },
         {
-          "question": "Which of the following data filtering functions can prevent employees from disclosing their identity information to the Internet?",
+          "question": "NAT in Easy IP mode translates only private IP addresses. It cannot translate port numbers.",
           "options": [
-            "Mail filtering",
-            "File filtering",
-            "URL filtering",
-            "Content filtering"
+            "True",
+            "False"
           ],
-          "correctAnswer": 3,
-          "explanation": "The correct answer is D."
+          "correctAnswer": 1,
+          "explanation": "The correct answer is False."
         },
         {
-          "question": "Which of the following protocols can be applied to the application layer?",
+          "question": "Proactive preemption is a process in which the active firewall takes over services when it recovers from a fault. Proactive preemption is enabled by default.",
           "options": [
-            "HTTP",
-            "DNS",
-            "FTP",
-            "OSPF"
+            "True",
+            "False"
           ],
           "correctAnswer": 0,
-          "explanation": "The correct answer is ABC."
-        },
-        {
-          "question": "Which of the following data filtering functions can prevent employees from disclosing their identity information to the Internet?",
-          "options": [
-            "Mail filtering",
-            "File filtering",
-            "URL filtering",
-            "Content filtering"
-          ],
-          "correctAnswer": 3,
-          "explanation": "The correct answer is D."
-        },
-        {
-          "question": "Which of the following data filtering functions can prevent employees from disclosing their identity information to the Internet?",
-          "options": [
-            "Mail filtering",
-            "File filtering",
-            "URL filtering",
-            "Content filtering"
-          ],
-          "correctAnswer": 3,
-          "explanation": "The correct answer is D."
-        },
-        {
-          "question": "Which of the following protocols can be applied to the application layer?",
-          "options": [
-            "HTTP",
-            "DNS",
-            "FTP",
-            "OSPF"
-          ],
-          "correctAnswer": 0,
-          "explanation": "The correct answer is ABC."
-        },
-        {
-          "question": "Which of the following data filtering functions can prevent employees from disclosing their identity information to the Internet?",
-          "options": [
-            "Mail filtering",
-            "File filtering",
-            "URL filtering",
-            "Content filtering"
-          ],
-          "correctAnswer": 3,
-          "explanation": "The correct answer is D."
-        },
-        {
-          "question": "In Cybersecurity Classified Protection 2.0, a network operator can determine the final level of security protection on its own when the security protection level is preliminarily determined to be ____.",
-          "options": [
-            "Level 1",
-            "Level 2",
-            "Level 3",
-            "Level 4"
-          ],
-          "correctAnswer": 0,
-          "explanation": "The correct answer is A."
-        },
-        {
-          "question": "Which of the following protocols can be applied to the application layer?",
-          "options": [
-            "HTTP",
-            "DNS",
-            "FTP",
-            "OSPF"
-          ],
-          "correctAnswer": 0,
-          "explanation": "The correct answer is ABC."
-        },
-        {
-          "question": "Which of the following protocols can be applied to the application layer?",
-          "options": [
-            "HTTP",
-            "DNS",
-            "FTP",
-            "OSPF"
-          ],
-          "correctAnswer": 0,
-          "explanation": "The correct answer is ABC."
-        },
-        {
-          "question": "Which of the following protocols can be applied to the application layer?",
-          "options": [
-            "HTTP",
-            "DNS",
-            "FTP",
-            "OSPF"
-          ],
-          "correctAnswer": 0,
-          "explanation": "The correct answer is ABC."
-        },
-        {
-          "question": "Which of the following is the correct sequence of the ransomware attack process?",
-          "options": [
-            "Intrusion -> Proliferation -> Theft -> Ransom",
-            "Proliferation -> Intrusion -> Theft -> Ransom",
-            "Intrusion -> Theft -> Spread -> Ransom",
-            "Intrusion -> Proliferation -> Ransom -> Theft",
-            "Theft -> Intrusion -> Spread -> Ransom"
-          ],
-          "correctAnswer": 0,
-          "explanation": "The correct answer is A."
-        },
-        {
-          "question": "Which of the following is the correct sequence of the ransomware attack process?",
-          "options": [
-            "Intrusion -> Proliferation -> Theft -> Ransom",
-            "Proliferation -> Intrusion -> Theft -> Ransom",
-            "Intrusion -> Theft -> Spread -> Ransom",
-            "Intrusion -> Proliferation -> Ransom -> Theft",
-            "Theft -> Intrusion -> Spread -> Ransom"
-          ],
-          "correctAnswer": 0,
-          "explanation": "The correct answer is A."
-        },
-        {
-          "question": "Which of the following data filtering functions can prevent employees from disclosing their identity information to the Internet?",
-          "options": [
-            "Mail filtering",
-            "File filtering",
-            "URL filtering",
-            "Content filtering"
-          ],
-          "correctAnswer": 3,
-          "explanation": "The correct answer is D."
-        },
-        {
-          "question": "Which of the following protocols can be applied to the application layer?",
-          "options": [
-            "HTTP",
-            "DNS",
-            "FTP",
-            "OSPF"
-          ],
-          "correctAnswer": 0,
-          "explanation": "The correct answer is ABC."
-        },
-        {
-          "question": "Which of the following data filtering functions can prevent employees from disclosing their identity information to the Internet?",
-          "options": [
-            "Mail filtering",
-            "File filtering",
-            "URL filtering",
-            "Content filtering"
-          ],
-          "correctAnswer": 3,
-          "explanation": "The correct answer is D."
-        },
-        {
-          "question": "In Cybersecurity Classified Protection 2.0, a network operator can determine the final level of security protection on its own when the security protection level is preliminarily determined to be ____.",
-          "options": [
-            "Level 1",
-            "Level 2",
-            "Level 3",
-            "Level 4"
-          ],
-          "correctAnswer": 0,
-          "explanation": "The correct answer is A."
-        },
-        {
-          "question": "Which of the following protocols can be applied to the application layer?",
-          "options": [
-            "HTTP",
-            "DNS",
-            "FTP",
-            "OSPF"
-          ],
-          "correctAnswer": 0,
-          "explanation": "The correct answer is ABC."
-        },
-        {
-          "question": "In Cybersecurity Classified Protection 2.0, a network operator can determine the final level of security protection on its own when the security protection level is preliminarily determined to be ____.",
-          "options": [
-            "Level 1",
-            "Level 2",
-            "Level 3",
-            "Level 4"
-          ],
-          "correctAnswer": 0,
-          "explanation": "The correct answer is A."
-        },
-        {
-          "question": "Which of the following data filtering functions can prevent employees from disclosing their identity information to the Internet?",
-          "options": [
-            "Mail filtering",
-            "File filtering",
-            "URL filtering",
-            "Content filtering"
-          ],
-          "correctAnswer": 3,
-          "explanation": "The correct answer is D."
-        },
-        {
-          "question": "Which of the following is the correct sequence of the ransomware attack process?",
-          "options": [
-            "Intrusion -> Proliferation -> Theft -> Ransom",
-            "Proliferation -> Intrusion -> Theft -> Ransom",
-            "Intrusion -> Theft -> Spread -> Ransom",
-            "Intrusion -> Proliferation -> Ransom -> Theft",
-            "Theft -> Intrusion -> Spread -> Ransom"
-          ],
-          "correctAnswer": 0,
-          "explanation": "The correct answer is A."
-        },
-        {
-          "question": "Which of the following data filtering functions can prevent employees from disclosing their identity information to the Internet?",
-          "options": [
-            "Mail filtering",
-            "File filtering",
-            "URL filtering",
-            "Content filtering"
-          ],
-          "correctAnswer": 3,
-          "explanation": "The correct answer is D."
-        },
-        {
-          "question": "In Cybersecurity Classified Protection 2.0, a network operator can determine the final level of security protection on its own when the security protection level is preliminarily determined to be ____.",
-          "options": [
-            "Level 1",
-            "Level 2",
-            "Level 3",
-            "Level 4"
-          ],
-          "correctAnswer": 0,
-          "explanation": "The correct answer is A."
+          "explanation": "The correct answer is True."
         }
       ]
     },
