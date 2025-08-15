@@ -1963,7 +1963,7 @@
             "IGMP"
           ],
           "correctAnswer": 1,
-          "explanation": "The correct answer is VGMP."
+          "explanation": "VGMP (VRRP Group Management Protocol) manages the active/standby switchover for the entire VRRP group."
         },
         {
           "question": "Which of the following statements is correct about the function of lateral movement in network penetration?",
@@ -1974,7 +1974,7 @@
             "Communicate with the customer to understand the target of the penetration test, such as the system, server, and IP address."
           ],
           "correctAnswer": 2,
-          "explanation": "The correct answer is C."
+          "explanation": "Lateral movement involves exploiting controlled hosts/servers to access other vulnerable devices on the network."
         },
         {
           "question": "Which of the following is a private IP address?",
@@ -1985,7 +1985,7 @@
             "172.20.2.1"
           ],
           "correctAnswer": 3,
-          "explanation": "The correct answer is D."
+          "explanation": "172.20.2.1 falls within the private IP range (172.16.0.0–172.31.255.255)."
         },
         {
           "question": "Which of the following statements is correct about the characteristics of a DDoS attack?",
@@ -1996,7 +1996,7 @@
             "If the target system has no vulnerability, the remote attack cannot succeed."
           ],
           "correctAnswer": 2,
-          "explanation": "The correct answer is C."
+          "explanation": "DDoS attacks aim to disrupt service availability, not steal data or exploit vulnerabilities."
         },
         {
           "question": "Network penetration simulates hackers' intrusion behaviors and thought patterns to perform non-destructive security tests on customer systems. Which of the following is the correct sequence of the network penetration process?",
@@ -2007,7 +2007,7 @@
             "Confirm the target -> Collect information -> Implement penetration -> Perform lateral movement -> Clear traces -> Elevate privileges"
           ],
           "correctAnswer": 0,
-          "explanation": "The correct answer is A."
+          "explanation": "The standard penetration testing sequence: target confirmation, reconnaissance, exploitation, lateral movement, privilege escalation, and trace removal."
         },
         {
           "question": "Which of the following statements is incorrect about TTL in IP packets?",
@@ -2018,7 +2018,7 @@
             "The TTL value of a packet ranges from 0 to 4095."
           ],
           "correctAnswer": 3,
-          "explanation": "The correct answer is the TTL value of a packet ranges from 0 to 4095."
+          "explanation": "TTL values typically range from 1 to 255, not 0–4095."
         },
         {
           "question": "In tunnel mode of IPsec, to authenticate a new IP header, which of the following IPsec protocols needs to be used?",
@@ -2029,7 +2029,7 @@
             "AH"
           ],
           "correctAnswer": 3,
-          "explanation": "The correct answer is AH."
+          "explanation": "AH (Authentication Header) provides integrity and authentication for the entire IP packet, including the new header."
         },
         {
           "question": "Which of the following attacks is not a network-layer attack?",
@@ -2040,7 +2040,7 @@
             "Port scanning"
           ],
           "correctAnswer": 3,
-          "explanation": "The correct answer is Port scanning."
+          "explanation": "Port scanning operates at the transport layer (TCP/UDP), not the network layer."
         },
         {
           "question": "Which of the following statements is correct about a firewall's interzone security policies?",
