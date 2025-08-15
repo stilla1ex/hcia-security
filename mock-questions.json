@@ -2304,7 +2304,7 @@
             "Security levels can be set only for user-defined security zones."
           ],
           "correctAnswer": [1, 3],
-          "explanation": "The correct answer is BD."
+          "explanation": "Zones must have unique security levels, and levels are configurable for user-defined zones."
         },
         {
           "question": "Users are network access subjects and basic units for network behavior control and network permission assignment by firewalls. Which of the following are involved in the user organizational structure?.",
@@ -2315,7 +2315,7 @@
             "Isolation group"
           ],
           "correctAnswer": [0, 1, 2],
-          "explanation": "The correct answer is ABC."
+          "explanation": "User management involves domains, groups, and security groups (not isolation groups)."
         },
         {
           "question": "Which of the following TCP ports are used by the FTP service by default?",
@@ -2326,8 +2326,9 @@
             "23"
           ],
           "correctAnswer": [0, 1],
-          "explanation": "The correct answer is AB."
+          "explanation": "FTP uses port 21 (control) and 20 (data)."
         },
+
         {
           "question": "Which of the following backup modes are supported by the HRP mechanism?",
           "options": [
@@ -2337,7 +2338,7 @@
             "Quick backup"
           ],
           "correctAnswer": [1, 2, 3],
-          "explanation": "The correct answer is BCD."
+          "explanation": "HRP supports real-time, batch, and quick backups (not scheduled)."
         },
         {
           "question": "Which of the following can be used to implement AAA on Huawei devices?",
@@ -2347,8 +2348,8 @@
             "LDAP",
             "AD"
           ],
-          "correctAnswer": 0,
-          "explanation": "The correct answer is ABCD."
+          "correctAnswer": [0,1,2,3],
+          "explanation": "All options (RADIUS, TACACS+, LDAP, Active Directory) support AAA."
         },
         {
           "question": "Which of the following VPNs are Layer 3 VPNs?",
@@ -2359,7 +2360,7 @@
             "SSL VPN"
           ],
           "correctAnswer": [1, 2],
-          "explanation": "The correct answer is BC."
+          "explanation": "GRE and IPsec operate at Layer 3; L2TP/SSL are Layer 2/application-layer."
         },
         {
           "question": "Which of the following protocol technologies are used when firewalls are deployed in hot standby mode?",
@@ -2370,7 +2371,7 @@
             "HRP"
           ],
           "correctAnswer": [0, 2, 3],
-          "explanation": "The correct answer is ACD."
+          "explanation": "Hot standby uses VRRP, VGMP (for group management), and HRP (for synchronization)."
         },
         {
           "question": "Which of the following authentication modes are available for Internet access users?",
@@ -2381,7 +2382,7 @@
             "User authentication exemption"
           ],
           "correctAnswer": [0, 1, 2, 3],
-          "explanation": "The correct answer is ABCD."
+          "explanation": "All options are valid authentication methods for internet access."
         },
         {
           "question": "Which of the following parameterss comprise an IPsec SA?",
@@ -2392,7 +2393,7 @@
             "Security protocol number"
           ],
           "correctAnswer": [0, 2, 3],
-          "explanation": "The correct answer is ACD."
+          "explanation": "An SA is defined by SPI, destination IP, and protocol (AH/ESP), not source IP."
         },
         {
           "question": "A session-based stateful inspection firewall processes the first packet and subsequent packets differently. Which of the following statements are correct?",
@@ -2403,7 +2404,7 @@
             "When stateful inspection is enabled and the firewall processes TCP packets, a session can be established only for SYN packets."
           ],
           "correctAnswer": [0, 1, 3],
-          "explanation": "The correct answer is ABD."
+          "explanation": "First packets trigger policy checks; subsequent packets use sessions. SYN packets initiate TCP sessions."
         },
         {
           "question": "The web redirection password authentication function of a USG firewall enables a user to access services without being proactively authenticated, and the device pushes the authentication page to the user.",
@@ -2412,7 +2413,7 @@
             "False"
           ],
           "correctAnswer": 0,
-          "explanation": "The correct answer is True."
+          "explanation": "True. Web redirection forces authentication before granting access."
         },
         {
           "question": "In an IP sweep attack, an attacker sends ICMP packets to probe the IP address of the target network and obtain the topology of the target network and active devices.",
@@ -2421,7 +2422,7 @@
             "False"
           ],
           "correctAnswer": 0,
-          "explanation": "The correct answer is True."
+          "explanation": "True. IP sweeps scan networks for active hosts."
         },
         {
           "question": "When a USG firewall serves as an out-of-path detection device, you need to configure the detection interface as a Layer 3 interface.",
@@ -2430,7 +2431,7 @@
             "False"
           ],
           "correctAnswer": 1,
-          "explanation": "The correct answer is False."
+          "explanation": "False. Out-of-path detection uses Layer 2 interfaces (e.g., mirroring)."
         },
         {
           "question": "The intrusion prevention function of the firewall detects and terminates intrusions (such as buffer overflow attacks, Trojan horses, and worms) in real time to protect enterprises' information systems and network architectures.",
@@ -2439,7 +2440,7 @@
             "False"
           ],
           "correctAnswer": 0,
-          "explanation": "The correct answer is True."
+          "explanation": "True. IPS blocks known exploits and malware."
         },
         {
           "question": "When the stateful inspection function is disabled, the firewall creates a session for subsequent packets.",
@@ -2447,8 +2448,8 @@
             "True",
             "False"
           ],
-          "correctAnswer": 0,
-          "explanation": "The correct answer is True."
+          "correctAnswer": 1,
+          "explanation": "False. Stateful inspection must be enabled for session tracking."
         },
         {
           "question": "If the IKE negotiation mode of the IPsec VPN is the main mode, the ID type must be an IP address.",
@@ -2457,7 +2458,7 @@
             "False"
           ],
           "correctAnswer": 0,
-          "explanation": "The correct answer is True."
+          "explanation": "True. Main mode supports non-IP IDs (e.g., FQDN).."
         },
         {
           "question": "With a large number of network users, large enterprises usually use a hierarchical structure to support network expansion and growing number of users.",
