@@ -2051,7 +2051,7 @@
             "Interzone security policies are automatically sorted by ID. If the position of a policy changes, the ID of the policy changes accordingly."
           ],
           "correctAnswer": 1,
-          "explanation": "The correct answer is interzone security policies are matched sequentially from the top down."
+          "explanation": "Firewall policies are evaluated top-down until a match is found."
         },
         {
           "question": "Which of the following statements is incorrect about the RADIUS protocol?",
@@ -2062,7 +2062,7 @@
             "It supports authorization of configuration commands."
           ],
           "correctAnswer": 3,
-          "explanation": "The incorrect answer is It supports authorization of configuration commands."
+          "explanation": "RADIUS does not support command authorization; TACACS+ does."
         },
         {
           "question": "Huawei Redundancy Protocol (HRP) is used to synchronize data such as the key configurations and connection status of the active firewall to the standby firewall. Which of the following data is beyond the synchronization scope?",
@@ -2073,7 +2073,7 @@
             "NAT policies"
           ],
           "correctAnswer": 0,
-          "explanation": "The correct answer is Routing table."
+          "explanation": "HRP does not synchronize routing tables; they are dynamically learned."
         },
         {
           "question": "Which of the following messages can provide error information and IP packet processing information for source ends?",
@@ -2084,7 +2084,7 @@
             "ICMP"
           ],
           "correctAnswer": 3,
-          "explanation": "The correct answer is ICMP."
+          "explanation": "ICMP (e.g., ping replies, TTL exceeded) reports network-layer errors."
         },
         {
           "question": "If packet loss occurs when hosts A and B communicate with each other through TCP, how does TCP ensure reliability?",
@@ -2095,7 +2095,7 @@
             "The Option field in TCP packets is used to ensure reliability of host A and host B."
           ],
           "correctAnswer": 2,
-          "explanation": "The correct answer is the ACK field in TCP packets is used to instruct host A to retransmit packets."
+          "explanation": "TCP uses ACKs to request retransmission of lost packets."
         },
         {
           "question": "Which one of the following parts is not included in a digital certificate?",
@@ -2106,7 +2106,7 @@
             "Certificate public key"
           ],
           "correctAnswer": 2,
-          "explanation": "The correct answer is Certificate private key. The private key is not included in the certificate; it is kept secret by the certificate holder."
+          "explanation": "Private keys are kept secret and never included in certificates."
         },
         {
           "question": "When an administrator wants to configure a USG series firewall through the console port, which of the following configurations should be made in the putty?",
@@ -2117,7 +2117,7 @@
             "19200 bps, 8 data bits, 1 stop bit, no parity check, and no flow control"
           ],
           "correctAnswer": 2,
-          "explanation": "The correct answer is 9600 bps, 8 data bits, 1 stop bit, no parity check, and no flow control. This is the standard configuration for console access on USG firewalls."
+          "explanation": "USG firewalls default to 9600 bps, 8N1 (no parity/flow control) for console access."
         },
         {
           "question": "On a USG firewall, which of the following commands is used to view current session entries?",
@@ -2128,7 +2128,7 @@
             "display firewall fib session"
           ],
           "correctAnswer": 2,
-          "explanation": "The correct answer is display firewall session table. This command displays the current session entries on the firewall."
+          "explanation": "display firewall session table shows active sessions."
         },
         {
           "question": "Which of the following values is the default security level of the Trust zone on a Huawei USG firewall?",
@@ -2139,7 +2139,7 @@
             "100"
           ],
           "correctAnswer": 2,
-          "explanation": "The default security level of the Trust zone on a Huawei USG firewall is 85. This level indicates a high level of trust for traffic originating from this zone. Refer to page 98 of Huawei training materials for more details."
+          "explanation": "Trust zone defaults to security level 85 (high trust)."
         },
         {
           "question": "Which of the following data filtering functions can prevent employees from disclosing their identity information to the Internet?",
@@ -2150,7 +2150,7 @@
             "Content filtering"
           ],
           "correctAnswer": 3,
-          "explanation": "The correct answer is content filtering. Refer to pg 135 of HCIA training material."
+          "explanation": "Content filtering scans for sensitive data (e.g., PII) in outbound traffic. pg 135 of HCIA training material."
         },
         {
           "question": "Which of the following statements is correct about firewall security zones?",
@@ -2161,7 +2161,7 @@
             "Different security zones can have the same security level."
           ],
           "correctAnswer": 2,
-          "explanation": "The correct answer is different interfaces on a firewall can belong to the same security zone."
+          "explanation": "Multiple interfaces can be assigned to the same zone (e.g., Trust)."
         },
         {
           "question": "Which of the following steps is optional for configuring intrusion prevention?",
@@ -2172,7 +2172,7 @@
             "Referencing an IPS profile in a security policy"
           ],
           "correctAnswer": 2,
-          "explanation": "The correct answer is Configuring signature exceptions."
+          "explanation": "Signature exceptions (whitelisting) are optional."
         },
         {
           "question": "Which of the following values is the default port number of the SSH protocol?",
@@ -2183,7 +2183,7 @@
             "23"
           ],
           "correctAnswer": 2,
-          "explanation": "The correct answer is 22."
+          "explanation": "SSH uses TCP port 22 by default."
         },
         {
           "question": "The digital certificate technology addresses the problem from the digital signature technology that the owner of a public key cannot be determined. Which of the following are types of digital certificates?",
@@ -2194,7 +2194,7 @@
             "Local device certificate"
           ],
           "correctAnswer": [0, 1, 2, 3],
-          "explanation": "The correct answers are ABCD."
+          "explanation": "All options are valid certificate types."
         },
         {
           "question": "Which of the following ports are used as the default authentication and accounting ports of the RADIUS protocol?",
@@ -2205,7 +2205,7 @@
             "1814"
           ],
           "correctAnswer": [1, 2],
-          "explanation": "The correct answer is B and C."
+          "explanation": "RADIUS uses UDP 1812 (authentication) and 1813 (accounting)."
         },
         {
           "question": "If the administrator has configured the Telnet service on the firewall but a user still cannot access the firewall remotely, which of the following are possible causes of the access failure?",
@@ -2216,7 +2216,7 @@
             "The number of online Telnet users reaches the upper limit."
           ],
           "correctAnswer": [0, 1, 3],
-          "explanation": "The correct answer is A, B, and D."
+          "explanation": "Network issues, wrong credentials, or session limits can block access."
         },
         {
           "question": "Which of the following methods can be used to implement the SSL VPN web proxy?",
@@ -2227,7 +2227,7 @@
             "Web rewriting"
           ],
           "correctAnswer": [0, 3],
-          "explanation": "The correct answer is web link and web rewriting."
+          "explanation": "Web proxy uses link rewriting or web rewriting for secure access."
         },
         {
           "question": "Which of the following are components of a PKI system?",
@@ -2238,7 +2238,7 @@
             "Certificate/CRL database"
           ],
           "correctAnswer": [0, 1, 2, 3],
-          "explanation": "The correct answer is A, B, C, and D."
+          "explanation": "PKI includes all these components for certificate lifecycle management."
         },
         {
           "question": "Which of the following security functions can be provided by the AH protocol in IPsec?",
@@ -2249,7 +2249,7 @@
             "Anti-replay"
           ],
           "correctAnswer": [0, 2, 3],
-          "explanation": "The correct answer is Data origin authentication, data integrity verification, and anti-replay."
+          "explanation": "AH provides authentication, integrity, and anti-replay but not encryption."
         },
         {
           "question": "Which of the following algorithms are symmetric encryption algorithms?",
@@ -2260,7 +2260,7 @@
             "SHA1"
           ],
           "correctAnswer": [0, 1],
-          "explanation": "The correct answer is DES and 3DES."
+          "explanation": "DES and 3DES are symmetric; MD5/SHA1 are hashing algorithms."
         },
         {
           "question": "Which of the following are common network topologies?",
@@ -2271,7 +2271,7 @@
             "Ring topology"
           ],
           "correctAnswer": [0, 1, 2, 3],
-          "explanation": "The correct answer is A."
+          "explanation": "All are standard network topologies."
         },
         {
           "question": "Which of the following statements are correct about the decapsulation of data packets in the TCP/IP protocol stack?",
@@ -2282,7 +2282,7 @@
             "After the transport layer (TCP) receives and parses data packets, transport layer information is removed, and the upper-layer protocol is obtained based on the parsing result."
           ],
           "correctAnswer": [0, 1, 2, 3],
-          "explanation": "The correct answer is A, B, C, and D."
+          "explanation": "All steps describe correct packet decapsulation in the TCP/IP stack."
         },
         {
           "question": "Which of the following VPNs are suitable for employees on business trips to access the enterprise intranet from the public network?",
@@ -2293,7 +2293,7 @@
             "SSL VPN"
           ],
           "correctAnswer": [0, 2, 3],
-          "explanation": "The correct answer is ACD. Refer to page 128 of HCIA security training material."
+          "explanation": "L2TP, L2TP/IPsec, and SSL VPN are remote-access solutions; GRE is site-to-site."
         },
         {
           "question": "Which of the following principles must be adhered to when you configure the security levels of the firewall security zones?",
