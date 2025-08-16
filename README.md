@@ -80,7 +80,3 @@ hcia-security/
 ## Contributing
 
 This project is designed for educational purposes and certification preparation. Contributions that improve the user experience, add new features, or enhance the question database are welcome.
-
-## License
-
-This project is provided for educational use in preparing for Huawei HCIA Security certification.
